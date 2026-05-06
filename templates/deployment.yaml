@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: roboshop
+  #namespace: roboshop
   # these labels are replicaset labels
   labels:
     project: roboshop
